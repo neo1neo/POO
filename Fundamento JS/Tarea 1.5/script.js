@@ -51,6 +51,8 @@ let n_casa = "526";
 let mensaje = "Yo vivo en " + direccion + " y el número de mi casa es " + n_casa;
 let longitud = mensaje.length;
 alert("Mensaje: " + mensaje +" \n Longitud: " + longitud + "\n Antepenultimo carácter: " + mensaje[48]);
+
+}
 // Tu código aquí
 
 //Ejercicio 5: Suma de valores
@@ -63,4 +65,4 @@ function sumarIndices(){
      suma = ultimoValor + penultimoValor +primerValor;
      alert(`Resultado de la suma de los índices es: ${suma}`);
 }
-} 
+
